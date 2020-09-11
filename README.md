@@ -1,20 +1,29 @@
-# Implementação Teoria dos Grafos
-Repositório para a implementação da matéria de teoria dos grafos
+# Teoria dos Grafos
+Implementação de Grafos na linguagem Python.
+Professor: Adolfo Guimarães / Teoria dos Grafos
+Alunos: Alisson Santos, Natan Nascimento e Natan José.
 
+# Resumo da implementação:
 
-### **Ideias**
+1 - Ilustrar Matriz de Adjacência
+2 - getAdjacentes
+3 - ehRegular
+4 - ehCompleto
+5 - ehConexo;
+0 - Sair
 
-- Criar o direcionamento do grafo usando matplotlib, conforme as informações do repositório a seguir;
-    (link: https://www.it-swarm.dev/pt/python/como-desenhar-grafos-direcionados-usando-o-networkx-em-python/1042805895/)
+## Representando o Grafo
+O Grafo é representado por uma Matriz de Adjacência. Para que seja demonstrado é só executar o arquivo **"main.py"** e no menu vai conter uma lista de opções.
+Obs: O Grafo é representado no console, ou seja, não precisa cadastrar.
 
+### getAdjacentes()
+Retorna os adjacentes de todos os vertices.
 
-### **Material**
+### ehRegular()
+Verifica se um determinado Grafo é regular ou não. Retorna **True** ou **False**.
 
-- Grafos e Algoritmos: 
-    https://medium.com/@filipe.chagas/os-grafos-e-os-algoritmos-697c1fd4a416
+### ehCompleto()
+Verifica se determinado Grafo é completo ou não. Retorna **True** ou **False**.
 
-- Grafos utilizando Python: 
-    https://github.com/iuryeng/grafos_python
-
-- Representação de grafos:
-    https://algoritmosempython.com.br/cursos/algoritmos-python/algoritmos-grafos/representacao
+### ehConexo() FALTA INICIAR COM DFS
+Verifica se determinado Grafo é conexo ou não. Retorna **True** ou **False**.
