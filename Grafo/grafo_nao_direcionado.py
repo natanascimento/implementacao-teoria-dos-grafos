@@ -29,8 +29,27 @@ class GrafoNaoDirecionado():
       soma = 0
       for j in range(self.vertices):
         soma += self.grafo[i][j]
+
     for a in range(len(adjacentes)):
       primeiroElementoAux = adjacentes[0]
       if(adjacentes[a] != primeiroElementoAux):
         return False
     return True
+
+  def ehCompleto(self):
+      adjacencias = []
+
+      for i in range(self.vertices):
+          soma  = 0
+          for j in range(self.vertices):
+              soma += self.grafo[i][j]
+          adjacencias.append(soma)
+      
+      for a in range(len(adjacencias)):
+          if(adjacencias[a] != self.vertices - 1):
+              return False
+      return True
+  
+  def ehConexo(self):
+    def dfs(self):
+      pass

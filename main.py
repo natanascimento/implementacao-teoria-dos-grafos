@@ -32,14 +32,14 @@ while rodar:
       print('\n')
 
   elif execute == '3':
-      print(f"ehReguar?: {get.ehRegular()}")
+      print(f"ehReguar: {get.ehRegular()}")
   
-  # elif execute == '4':
-  #     print(f"ehCompleto?: {get.ehCompleto()}")
+  elif execute == '4':
+      print(f"ehCompleto: {get.ehCompleto()}")
   
-  # elif execute == '5':
-  #     print(f"ehConexo?: {get.bfs(1)}")
-  
+  elif execute == '5':
+      print(f"ehConexo: {get.ehConexo()}")
+    
   elif execute == '0':
       run = False
       print("Saindo...")
