@@ -1,0 +1,6 @@
+### Anotações Gerais 
+
+IDEIAS: 
+- Criar o direcionamento do grafo usando matplotlib, conforme as informações do repositório a seguir;
+    (link: https://www.it-swarm.dev/pt/python/como-desenhar-grafos-direcionados-usando-o-networkx-em-python/1042805895/)
+
