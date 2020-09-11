@@ -1,9 +1,9 @@
 # Teoria dos Grafos
-Implementação de Grafos na linguagem Python.
-Professor: Adolfo Guimarães / Teoria dos Grafos
-Alunos: Alisson Santos, Natan Nascimento e Natan José.
+<p>Implementação de Grafos na linguagem Python.</p>
+<p>Professor: Adolfo Guimarães / Teoria dos Grafos</p>
+<p>Alunos: Alisson Santos, Natan Nascimento e Natan José.</p>
 
-# Resumo da implementação:
+### 💻 Resumo da implementação:
 
 1 - Ilustrar Matriz de Adjacência
 2 - getAdjacentes
