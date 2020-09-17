@@ -27,3 +27,7 @@ Verifica se determinado Grafo é completo ou não. Retorna **True** ou **False**
 
 ### ehConexo() FALTA INICIAR COM DFS
 Verifica se determinado Grafo é conexo ou não. Retorna **True** ou **False**.
+
+## Entrega dia 17/09
+<p>Representar grafo: Matriz de Adjacencia - Feito</p>
+

@@ -2,6 +2,8 @@ class GrafoNaoDirecionado():
   def __init__(self, vertices):
     self.vertices = vertices
     self.grafo = [[0] * vertices for i in range(vertices)]
+    self.visitados = [False] * vertices
+    print(self.visitados)
 
   def adicionarAresta(self, origem, destino, peso):
     self.grafo[origem][destino] = peso
@@ -50,6 +52,13 @@ class GrafoNaoDirecionado():
               return False
       return True
   
-  def ehConexo(self):
-    def dfs(self):
-      pass
+  # def ehConexo(self):
+  #   def dfs(self, origem):
+  #     cont = 0
+  #     self.visitados[origem - 1] = True
+  #     print(f'{origem} visitado')
+  #     for i in range(1, self.vertices + 1):
+  #       if(self.grafo[origem - 1][i - 1] == 1 and self.visitados[i - 1] == False):
+  #         cont += 1
+  #         self.dfs(i)
+  #         print(cont)
