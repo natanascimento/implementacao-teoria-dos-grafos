@@ -38,7 +38,9 @@ while rodar:
       print(f"ehCompleto: {get.ehCompleto()}")
   
   elif execute == '5':
-      get.dfs(1)
+    print(f"ehConexo: {get.ehConexo()}")
+
+    #   get.dfs(1)
     
   elif execute == '0':
       run = False
