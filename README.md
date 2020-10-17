@@ -25,9 +25,14 @@ Verifica se um determinado Grafo é regular ou não. Retorna **True** ou **False
 ### ehCompleto()
 Verifica se determinado Grafo é completo ou não. Retorna **True** ou **False**.
 
-### ehConexo() FALTA INICIAR COM DFS
+### ehConexo()
 Verifica se determinado Grafo é conexo ou não. Retorna **True** ou **False**.
 
-## Entrega dia 17/09
+## Entrega dia 03/10
 <p>Representar grafo: Matriz de Adjacencia - Feito</p>
 
+## Entrega dia 17/10
+<p>Implementações dos métodos básicos - Feito</p>
+
+## Entrega dia 24/10
+<p>Pendente</p>
