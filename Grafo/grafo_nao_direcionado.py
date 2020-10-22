@@ -61,9 +61,13 @@ class GrafoNaoDirecionado():
   #       self.dfs(i)
   
   def Dijkstra(self, inicio):
-    distancias = [0] * 5 
-    verticeAnterior = [0] * 5
-    indexVetores = [0] * 5
+    # distancias = [0] * 5 
+    # verticeAnterior = [0] * 5
+    # indexVetores = [0] * 5
+    
+    distancias = [0] * self.vertices
+    verticeAnterior = [0] * self.vertices
+    indexVetores = [0] * self.vertices
     
     visitados = []
     pesoVisitados = []
