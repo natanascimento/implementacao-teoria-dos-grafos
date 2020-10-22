@@ -52,6 +52,14 @@ class GrafoNaoDirecionado():
               return False
       return True
   
+  # def dfs(self, origem):
+  #   self.visitados[origem - 1] = True
+  #   print(self.visitados[origem - 1])
+  #   print('%d visitado' % origem)
+  #   for i in range(1, self.vertices + 1):
+  #     if self.grafo[origem -1][i - 1] == 1 and self.visitados[i - 1] == False:
+  #       self.dfs(i)
+  
   def Dijkstra(self, inicio):
     distancias = [0] * 5 
     verticeAnterior = [0] * 5

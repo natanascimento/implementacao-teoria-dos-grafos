@@ -39,7 +39,7 @@ Verifica se determinado Grafo é completo ou não. Retorna **True** ou **False**
 ### ehConexo()
 Verifica se determinado Grafo é conexo ou não. Retorna **True** ou **False**.
 
-### Dijstra()
+### Dijkstra()
 
 Encontra o menor caminho de um vértice inicio colocado como parâmetro até todos os outros vértices.
 

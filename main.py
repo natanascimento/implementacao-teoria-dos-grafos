@@ -38,8 +38,8 @@ while rodar:
   elif execute == '4':
     print(f"ehCompleto: {get.ehCompleto()}")
   
-#   elif execute == '5':
-#     print(f"ehConexo: {get.Dijkstra(0)}")
+  # elif execute == '5':
+  #   print(f"ehConexo: {get.dfs(1)}")
 
   elif execute == '6':
     get.Dijkstra(0)
